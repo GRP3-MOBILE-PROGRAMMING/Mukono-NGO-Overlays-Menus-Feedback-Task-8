@@ -1,0 +1,13 @@
+<resources>
+    <color name="ink">#26343B</color>
+    <color name="muted">#64747C</color>
+    <color name="teal">#07838B</color>
+    <color name="teal_dark">#006C73</color>
+    <color name="page">#F3F7FB</color>
+    <color name="line">#D6E0E3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="zone_a">#19866F</color>
+    <color name="zone_b">#2878C7</color>
+    <color name="zone_c">#D38B2D</color>
+    <color name="zone_d">#8660B8</color>
+</resources>

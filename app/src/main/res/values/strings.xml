@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MukonoNGO</string>
+    <string name="volunteer_report_issue">Volunteer • Report issue</string>
+    <string name="secondary_sheet_state">SECONDARY SHEET STATE</string>
+    <string name="beneficiary_name_sample">Kate N.</string>
+    <string name="beneficiary_zone_sample">Kisenyi Zone 2 • Active record</string>
+    <string name="beneficiary_details_sample">5 members • No peanuts • Low-salt diet</string>
+    <string name="beneficiary_id_sample">BNF-2048</string>
+    <string name="qr_verified">QR verified</string>
+    <string name="report_an_issue">Report an issue</string>
+    <string name="select_reason">Select the reason for unsuccessful delivery</string>
+    <string name="reason_wrong_person">Wrong Person</string>
+    <string name="reason_address_changed">Address Changed</string>
+    <string name="reason_no_show">No Show</string>
+    <string name="additional_details">Additional details</string>
+    <string name="describe_what_happened">Describe what happened...</string>
+    <string name="submit_issue">Submit Issue</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="delivery_confirmed_demo">Delivery confirmed (demo)</string>
+    <string name="select_reason_toast">Select a reason for the issue</string>
+    <string name="issue_submitted_demo">Issue submitted (demo)</string>
+    <string name="filter_all">All zones</string>
+    <string name="filter_zone_a">Zone A</string>
+    <string name="filter_zone_b">Zone B</string>
+    <string name="filter_zone_c">Zone C</string>
+    <string name="filter_zone_d">Zone D</string>
+    <string name="reassign_demo">Choose a delivery to reassign (demo)</string>
+</resources>

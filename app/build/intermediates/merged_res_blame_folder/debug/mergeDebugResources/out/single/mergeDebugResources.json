@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_splash_window.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\splash_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\layout_dialog_report_issue.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\layout\\dialog_report_issue.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable-nodpi_kampala_map_reference.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable-nodpi\\kampala_map_reference.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\layout-sw600dp-land_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\layout-sw600dp-land\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.mukonongomap.app-debug-4:/drawable_radio_right_selector.xml.flat",
+        "source": "com.example.mukonongomap.app-main-6:/drawable/radio_right_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_field.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_scan_frame.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\scan_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_profile_highlight.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_profile_highlight.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_primary_button.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_primary_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\layout_dialog_beneficiary.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\layout\\dialog_beneficiary.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "com.example.mukonongomap.app-debug-4:/layout_dialog_report_issue.xml.flat",
+        "source": "com.example.mukonongomap.app-main-6:/layout/dialog_report_issue.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_scanner.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_splash_logo_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\splash_logo_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_outline_button.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_outline_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-debug-4:\\drawable_bg_white_card.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\9.0.0\\com.example.mukonongomap.app-main-6:\\drawable\\bg_white_card.xml"
+    }
+]

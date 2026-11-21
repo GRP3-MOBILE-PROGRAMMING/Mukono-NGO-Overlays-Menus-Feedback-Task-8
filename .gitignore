@@ -1,0 +1,24 @@
+# Build output - Jenkins rebuilds these on every run
+build/
+app/build/
+.gradle/
+*.apk
+*.aab
+
+# Machine-specific
+local.properties
+.idea/caches/
+.idea/workspace.xml
+.idea/deviceManager.xml
+.idea/deploymentTargetSelector.xml
+*.iml
+.DS_Store
+
+# Secrets - Jenkins injects these from Credentials
+app/google-services.json
+*service-account*.json
+*.jks
+*.keystore
+
+# Local documentation and QR test cards - not committed
+docs/*

@@ -43,7 +43,14 @@
                 android:layout_marginTop="12dp"
                 android:background="@drawable/bg_scanner"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                android:contentDescription="Start QR scanner">
+                <!-- Live camera preview (CameraX). Hidden until scanning starts; overlays stay on top. -->
+                <androidx.camera.view.PreviewView
+                    android:id="@+id/cameraPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="top|start" android:layout_margin="18dp" android:text="QR SCAN" android:textColor="#E7F4F3" android:textStyle="bold" android:textSize="12sp" android:letterSpacing="0.14"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="top|end" android:layout_margin="16dp" android:text="● LIVE" android:textColor="#8BE4D0" android:textSize="11sp" android:background="#26383D" android:padding="8dp"/>
                 <FrameLayout
@@ -56,10 +63,10 @@
                 </FrameLayout>
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="bottom" android:gravity="center" android:orientation="vertical" android:paddingBottom="18dp">
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Align QR code within the frame" android:textColor="#FFFFFF" android:textSize="14sp"/>
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Scanning automatically..." android:textColor="#A8B8BD" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:id="@+id/scanHint" android:text="Tap to start the camera" android:textColor="#A8B8BD" android:textSize="12sp"/>
                 </LinearLayout>
             </FrameLayout>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Ready to scan" android:textColor="#26343B" android:textSize="19sp"/>
+            <TextView android:id="@+id/scanStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Ready to scan" android:textColor="#26343B" android:textSize="19sp"/>
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Scan the QR code on the beneficiary card to open their profile." android:textColor="#4C5B62" android:textSize="14sp"/>
             <Button
                 android:id="@+id/manualIdButton"
@@ -75,7 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Tap the scanner frame to preview a verified scan."
+            android:text="Tap the scanner frame to open the camera. Tap again to cancel."
             android:textColor="#64747C"
             android:textSize="12sp"/>
     </LinearLayout>

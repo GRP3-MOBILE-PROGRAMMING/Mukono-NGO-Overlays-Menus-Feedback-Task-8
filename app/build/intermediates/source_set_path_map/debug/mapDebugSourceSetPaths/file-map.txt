@@ -1,7 +1,0 @@
-com.example.mukonongomap.app-pngs-0 D:\Downloads\MukonoNGO_AndroidStudio\app\build\generated\res\pngs\debug
-com.example.mukonongomap.app-resValues-1 D:\Downloads\MukonoNGO_AndroidStudio\app\build\generated\res\resValues\debug
-com.example.mukonongomap.app-packageDebugResources-2 D:\Downloads\MukonoNGO_AndroidStudio\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.mukonongomap.app-packageDebugResources-3 D:\Downloads\MukonoNGO_AndroidStudio\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.mukonongomap.app-debug-4 D:\Downloads\MukonoNGO_AndroidStudio\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.mukonongomap.app-debug-5 D:\Downloads\MukonoNGO_AndroidStudio\app\src\debug\res
-com.example.mukonongomap.app-main-6 D:\Downloads\MukonoNGO_AndroidStudio\app\src\main\res

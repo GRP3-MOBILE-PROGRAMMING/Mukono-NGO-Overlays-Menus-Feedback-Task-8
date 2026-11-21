@@ -1,5 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- QR scanning of beneficiary cards -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <!-- Beneficiary lookup, Confirm Delivery and Firebase Performance uploads -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name=".MukonoApp"
         android:allowBackup="true"
         android:label="Mukono NGO"
         android:theme="@style/AppTheme"

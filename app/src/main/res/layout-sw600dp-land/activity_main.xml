@@ -43,7 +43,7 @@
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delivery manifest" android:textColor="#26343B" android:textSize="18sp"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="TODAY • 17 NOVEMBER 2026" android:textColor="#64747C" android:textSize="11sp"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="TOTAL DELIVERIES" android:textColor="#64747C" android:textSize="11sp"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12 scheduled • 8 completed" android:textColor="#26343B" android:textSize="13sp"/>
+            <TextView android:id="@+id/manifestSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading manifest…" android:textColor="#26343B" android:textSize="13sp"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="Filter by zone" android:textColor="#526168" android:textSize="12sp"/>
             <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none">
                 <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
@@ -55,14 +55,14 @@
                 </LinearLayout>
             </HorizontalScrollView>
             <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="8dp" android:background="#D6E0E3"/>
-            <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
-                <LinearLayout android:id="@+id/manifestList" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-                    <TextView android:id="@+id/zoneAItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="10dp" android:text="08:30 • Zone A\nAmina N. – Kisenyi\nVolunteer: Sarah K.\nReassign volunteer  →" android:textColor="#34434A" android:textSize="12sp"/>
-                    <TextView android:id="@+id/zoneBItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp" android:text="10:00 • Zone B\nJohn O. – Katwe\nVolunteer: Peter M.\nReassign volunteer  →" android:textColor="#34434A" android:textSize="12sp"/>
-                    <TextView android:id="@+id/zoneCItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp" android:text="11:30 • Zone C\nGrace T. – Makindye\nVolunteer: Sarah K.\nReassign volunteer  →" android:textColor="#34434A" android:textSize="12sp"/>
-                    <TextView android:id="@+id/zoneDItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp" android:text="13:00 • Zone D\nMusa K. – Nakawa\nVolunteer: Brian O.\nReassign volunteer  →" android:textColor="#34434A" android:textSize="12sp"/>
-                </LinearLayout>
-            </ScrollView>
+            <!-- Long delivery manifest (hundreds of stops): RecyclerView so rows are recycled while scrolling -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/manifestList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:scrollbars="vertical"/>
             <Button android:id="@+id/reassignButton" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_primary_button" android:text="Reassign selected delivery" android:textAllCaps="false" android:textColor="#FFFFFF"/>
         </LinearLayout>
     </LinearLayout>

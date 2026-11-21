@@ -26,4 +26,24 @@
     <string name="filter_zone_c">Zone C</string>
     <string name="filter_zone_d">Zone D</string>
     <string name="reassign_demo">Choose a delivery to reassign (demo)</string>
+
+    <!-- Live scanning, network results and offline queue -->
+    <string name="scan_starting">Starting camera…</string>
+    <string name="scan_scanning">Scanning… align the QR code within the frame</string>
+    <string name="scan_ready">Ready to scan</string>
+    <string name="scan_loading_profile">QR read: loading %1$s…</string>
+    <string name="scan_not_beneficiary">That QR code is not a beneficiary card</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="camera_permission_needed">Camera permission is needed to scan QR codes. Use Enter beneficiary ID instead.</string>
+    <string name="beneficiary_not_found">Beneficiary %1$s not found</string>
+    <string name="beneficiary_offline">Offline: showing saved profile</string>
+    <string name="confirming">Confirming…</string>
+    <string name="delivery_synced">Delivery confirmed and synced</string>
+    <string name="delivery_queued">No connection: delivery saved and will sync later</string>
+    <string name="manual_id_title">Enter beneficiary ID</string>
+    <string name="manual_id_open">Open</string>
+    <string name="manifest_summary">%1$d stops • %2$d completed%3$s</string>
+    <string name="manifest_offline_suffix"> • offline copy</string>
+    <string name="manifest_failed">Manifest could not be loaded</string>
+    <string name="reassign_selected">Reassign %1$s (demo)</string>
 </resources>
